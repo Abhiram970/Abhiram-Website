@@ -54,7 +54,7 @@
             align-items: center;
             flex-direction: column;
             opacity: 0;
-            transform: translateY(-100%);
+            transform: translateY(100%);
             transition: all .4s ease-in-out;
             h3{
                 font-size: 30px;
