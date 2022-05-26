@@ -20,15 +20,12 @@ function pagetransition(){
         main[i].addEventListener('click', (e) => {
             var id = e.target.dataset.id;
             const element = document.getElementById(id);
-
             if(id){
                 sec.forEach((section) =>{
                     section.classList.remove('active')
                 })
                 element.classList.add('active');
             }
-            
-
         })
     }
 }
