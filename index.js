@@ -33,3 +33,12 @@ function pagetransition(){
 
 
 pagetransition();
+
+function form1()
+{
+    var subject = document.getElementById('subject1').value;
+    var email = document.getElementById('email1').value;
+    var name = document.getElementById('name1').value;
+    var message = document.getElementById('message1').value;
+    window.open('mailto:pvabhiram1977@gmail.com?subject='+ subject + '&body='+message);
+}
