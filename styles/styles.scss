@@ -514,8 +514,40 @@ img{
                         height: 100%;
                     }
                     .html{
-                        width: 70%;
+                        width: 90%;
                         background-color: var(--color-secondary);
+                    }
+                    .css{
+                        width: 75%;
+                        background-color: red;
+                    }
+                    .js{
+                        width: 70%;
+                        background-color: yellow;
+                    }
+                    .django{
+                        width: 80%;
+                        background-color: darkgreen;
+                    }
+                    .python{
+                        width: 85%;
+                        background-color: var(--color-secondary);
+                    }
+                    .tens{
+                        width: 70%;
+                        background-color: orange;
+                    }
+                    .mach{
+                        width: 60%;
+                        background-color: white;
+                    }
+                    .db{
+                        width: 75%;
+                        background-color: cyan;
+                    }
+                    .cpp{
+                        width: 80%;
+                        background-color: chartreuse;
                     }
                 }
             }
